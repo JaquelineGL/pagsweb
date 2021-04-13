@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Undad 3| Práctica 1 | Calculadora Javascript</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
+<meta name="descripcion" content="Pácticas de la unidad 3 de la materia de programación web">
+<meta name="author" content="Jaqueline GL">
+<meta name="keywords" content="Programación web">
+<link rel="stylesheet" type="text/css" href="estilo/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="estilo/css/style.css">
+<script type="text/javascript" src="estilo/js/mijavascript.js"></script>
+<script type="text/javascript" src="estilo/js/bootstrap.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+
+<!--aqui puede ir el java script -->
+
+</head>
+<body> 
+ <nav class="navbar navbar-expand-lg navbar-light " >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html" style="color: #ffffff">Index</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+       <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="practica1.html" style="color: #ffffff"> Calculadora </a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="practica2.html" style="color: #ffffff"> Línea del tiempo </a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="practica3.html" style="color: #ffffff"> Currículum vitae </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="lectura1.html" style="color: #ffffff"> Lectura 1</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br>
+
+<h2 align="center"><b>CALCULADORA JAVASCRIPT</b></h2>
+<center><hr style="color: #E38265"></center><br><br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 offset-sm-4 col-md-4 offset-md-4 col-lg-4 offset-lg-4 col-xl-4 offset-xl-4 col-xxl-4 offset-xxl-4">
+        <form id="calculadora" class="form">
+        <label>Número 1:</label> 
+        <input type="text" id="variable1" name=""><br><br>
+        <label>Número 2:</label> 
+        <input type="text" id="variable2" name=""><br><br>
+      </form> 
+     </div>
+      <div class="col-sm-4 offset-sm-4 col-md-4 offset-md-4 col-lg-4 offset-lg-4 col-xl-4 offset-xl-4 col-xxl-4 offset-xxl-4">
+        <button type="button" name="button" class="btn btn-outline-primary" onclick="suma();"> + </button>
+        <button type="button" name="button" class="btn btn-outline-primary" onclick="resta();"> - </button>
+        <button type="button" name="button" class="btn btn-outline-primary" onclick="multiplicacion();"> * </button>
+        <button type="button" name="button" class="btn btn-outline-primary" onclick="division();"> / </button>
+      </div>
+     <div class="col-sm-4 offset-sm-4 col-md-4 offset-md-4 col-lg-4 offset-lg-4 col-xl-4 offset-xl-4 col-xxl-4 offset-xxl-4">
+        <br>
+        <p>Resultado:<span id="resultado"></span></p>
+         <button type="button" name="button" class="btn btn-outline-primary-borrar" onclick="borrar();">Borrar campos</button>
+      </div>
+  
+    </div>
+      </div>
+
+
+ <br><br><br><br><br><br>
+    <footer class="bg-light text-center text-lg-start">
+  <div class="text-center p-3" style="background-color: #FFD8B1">
+    Instituto Tecnológico de Pabellón de Arteaga | Todos los derechos reservados
+  </div>
+</footer>  
+  
+
+
+<!--aqui puede ir el java script -->
+</body>
+
+</html>

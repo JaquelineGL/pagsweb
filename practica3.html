@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Undad 3| Práctica 3 | Currículum Vitae con Javascript</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
+<meta name="descripcion" content="Pácticas de la unidad 3 de la materia de programación web">
+<meta name="author" content="Jaqueline GL">
+<meta name="keywords" content="Programación web">
+<link rel="stylesheet" type="text/css" href="estilo/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="estilo/css/style.css">
+<script type="text/javascript" src="estilo/js/mijavascript.js"></script>
+<script type="text/javascript" src="estilo/js/bootstrap.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+
+<!--aqui puede ir el java script -->
+
+</head>
+<body> 
+  <nav class="navbar navbar-expand-lg navbar-light " >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html" style="color: #ffffff">Index</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+       <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="practica1.html" style="color: #ffffff"> Calculadora </a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="practica2.html" style="color: #ffffff"> Línea del tiempo </a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="practica3.html" style="color: #ffffff"> Currículum vitae </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="lectura1.html" style="color: #ffffff"> Lectura 1</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br><br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8 offset-sm-2 col-md-8 offset-md-2 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2 col-xxl-8 offset-xxl-2">
+      <label>Opciones:</label>
+      <button type="button" name="button" class="btn btn-outline-primary-borrar" onclick="cambiarfondo()">Cambiar colores de fondo</button> 
+      <button type="button" name="button" class="btn btn-outline-primary-borrar" onclick="cambiarletras() ">Cambiar colores de letra</button>   
+    </div>
+  </div>
+</div>
+<center><hr style="color: #E38265"></center><br><br>
+
+
+<div class="col-md-offset-2 col-md-8" style="background: #E4E5E9" id="wrapper" >
+  <div id="header">
+   <div class="contenedor-imagen">
+    <p id="imagenc"></p><br><br>
+   </div>
+   <div>
+    <h2 id="name">Jaqueline Garcia</h2>
+    <p id="underline"></p>
+     <button class="btn btn-outline-primary-borrar" type="button" onclick="fotoformal()">Fotografía formal</button>
+    <button class="btn btn-outline-primary-borrar" type="button" onclick="fotocasual()">Fotografía casual</button>
+   </div>
+  </div><!--  end header -->
+  <div class="row">
+   <div class="col-md-12">
+    <h4 id="exp">EXPERIENCIA</h4>
+    <div id="experience">
+     <div id="exp1">
+      <div>
+       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 438.536;"
+       xml:space="preserve">
+       <path d="M433.113,5.424C429.496,1.807,425.215,0,420.267,0H18.276C13.324,0,9.041,1.807,5.425,5.424
+       C1.808,9.04,0.001,13.322,0.001,18.271v401.991c0,4.948,1.807,9.233,5.424,12.847c3.619,3.614,7.902,5.428,12.851,5.428h401.991
+       c4.948,0,9.229-1.813,12.847-5.428c3.614-3.613,5.421-7.898,5.421-12.847V18.271C438.534,13.319,436.73,9.04,433.113,5.424z"/>
+      </div>
+      <div>
+       <span id="head">Dependiente en una tienda de ropa </span>
+       <p><button class="btn btn-outline-primary-borrar" type="button" onclick="primertrabajo()">2019-2020</button></p>
+      </div>
+      <div>
+       <h4 id="tienda0"><span id="tienda0"></span></h4>
+       <p><ul>
+         <span id="tienda1"></span><br>
+         <span id="tienda2"></span>
+       </ul></p>
+      </div>
+     </div> <!-- end section 1 -->
+     <div id="exp1">
+      <div>
+       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 438.536;"
+       xml:space="preserve">
+       <path d="M433.113,5.424C429.496,1.807,425.215,0,420.267,0H18.276C13.324,0,9.041,1.807,5.425,5.424
+       C1.808,9.04,0.001,13.322,0.001,18.271v401.991c0,4.948,1.807,9.233,5.424,12.847c3.619,3.614,7.902,5.428,12.851,5.428h401.991
+       c4.948,0,9.229-1.813,12.847-5.428c3.614-3.613,5.421-7.898,5.421-12.847V18.271C438.534,13.319,436.73,9.04,433.113,5.424z"/>
+      </div>
+      <div>
+       <span id="head">Programadora web</span>
+       <p><button class="btn btn-outline-primary-borrar" type="button" onclick="segundotrabajo()">Junio 2020-Agosto 2020</button></p>
+      </div>
+      <div>
+       <h4 id="ent"><span id="pw0"></span></h4>
+       <p ><ul>
+        <span id="pw1"></span><br>
+         <span id="pw2"></span><br>
+         <span id="pw3"></span><br>
+         <span id="pw4"></span><br>
+       </ul></p>
+      </div>
+     </div> <!-- end section 1 -->
+     <div id="exp1">
+      <div>
+     </div> <!-- end section 1 -->
+    </div>
+   </div>
+  </div> <!-- end row 1 -->
+  <div class="row">
+   <div class="col-md-12">
+    <h4 id="educ">EDUCACIÓN</h4>
+    <div id="experience">
+     <div id="exp1">
+      <div>
+       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 438.536;"
+       xml:space="preserve">
+       <path d="M433.113,5.424C429.496,1.807,425.215,0,420.267,0H18.276C13.324,0,9.041,1.807,5.425,5.424
+       C1.808,9.04,0.001,13.322,0.001,18.271v401.991c0,4.948,1.807,9.233,5.424,12.847c3.619,3.614,7.902,5.428,12.851,5.428h401.991
+       c4.948,0,9.229-1.813,12.847-5.428c3.614-3.613,5.421-7.898,5.421-12.847V18.271C438.534,13.319,436.73,9.04,433.113,5.424z"/>
+      </div>
+      <div>
+       <span id="head">Estudiante Técnico en programación</span>
+       <p><button class="btn btn-outline-primary-borrar" type="button" onclick="estudio1()">2015-2018</button></p>
+      </div>
+      <div>
+       <h4 id="ent"><span id="es0"></span></h4>
+       <p ><span id="es1"></span></p>
+      </div>
+     </div> <!-- end section 1 -->
+     <div id="exp1">
+      <div>
+       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 438.536;"
+       xml:space="preserve">
+       <path d="M433.113,5.424C429.496,1.807,425.215,0,420.267,0H18.276C13.324,0,9.041,1.807,5.425,5.424
+       C1.808,9.04,0.001,13.322,0.001,18.271v401.991c0,4.948,1.807,9.233,5.424,12.847c3.619,3.614,7.902,5.428,12.851,5.428h401.991
+       c4.948,0,9.229-1.813,12.847-5.428c3.614-3.613,5.421-7.898,5.421-12.847V18.271C438.534,13.319,436.73,9.04,433.113,5.424z"/>
+      </div>
+      <div>
+       <span id="head">Estudiante de Ingeniería en TICS</span>
+       <p><button class="btn btn-outline-primary-borrar" type="button" onclick="estudio2()">2018- </button></p>
+      </div>
+      <div>
+       <h4 id="ent"><span id="est0"></span> </h4>
+       <p ><ul>
+        <span id="est1"></span><br>
+        <span id="est2"></span><br>
+        <span id="est3"></span><br>
+        <span id="est4"></span><br>
+        <span id="est5"></span><br>
+        <span id="est6"></span><br>
+        <span id="est7"></span><br>
+       </ul></p>
+      </div>
+     </div> <!-- end section 1 -->
+    </div>
+   </div>
+  </div> <!-- end row 1 -->
+  
+    <div class="row">
+   <div class="col-md-5">
+    <h4 id="contacts">CONTACTO</h4>
+    <div class="topM">
+     <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"viewBox="0 0 348.077 348.077">
+      <path d="M340.273,275.083l-53.755-53.761c-10.707-10.664-28.438-10.34-39.518,0.744l-27.082,27.076
+      c-1.711-0.943-3.482-1.928-5.344-2.973c-17.102-9.476-40.509-22.464-65.14-47.113c-24.704-24.701-37.704-48.144-47.209-65.257
+      c-1.003-1.813-1.964-3.561-2.913-5.221l18.176-18.149l8.936-8.947c11.097-11.1,11.403-28.826,0.721-39.521L73.39,8.194
+      C62.708-2.486,44.969-2.162,33.872,8.938l-15.15,15.237l0.414,0.411c-5.08,6.482-9.325,13.958-12.484,22.02
+      C3.74,54.28,1.927,61.603,1.098,68.941C-6,127.785,20.89,181.564,93.866,254.541c100.875,100.868,182.167,93.248,185.674,92.876
+      c7.638-0.913,14.958-2.738,22.397-5.627c7.992-3.122,15.463-7.361,21.941-12.43l0.331,0.294l15.348-15.029
+      C350.631,303.527,350.95,285.795,340.273,275.083z"/>
+      <span id="space">4651031475</span>
+    </div>
+    <div class="topM">
+     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 550.795 550.795" xml:space="preserve">
+      <path d="M501.613,491.782c12.381,0,23.109-4.088,32.229-12.16L377.793,323.567c-3.744,2.681-7.373,5.288-10.801,7.767
+      c-11.678,8.604-21.156,15.318-28.434,20.129c-7.277,4.822-16.959,9.737-29.045,14.755c-12.094,5.024-23.361,7.528-33.813,7.528
+      h-0.306h-0.306c-10.453,0-21.72-2.503-33.813-7.528c-12.093-5.018-21.775-9.933-29.045-14.755
+      c-7.277-4.811-16.75-11.524-28.434-20.129c-3.256-2.387-6.867-5.006-10.771-7.809L16.946,479.622
+      c9.119,8.072,19.854,12.16,32.234,12.16H501.613z"/>
+      <path d="M31.047,225.299C19.37,217.514,9.015,208.598,0,198.555V435.98l137.541-137.541
+       C110.025,279.229,74.572,254.877,31.047,225.299z"/>
+      <path d="M520.059,225.299c-41.865,28.336-77.447,52.73-106.75,73.195l137.486,137.492V198.555
+       C541.98,208.396,531.736,217.306,520.059,225.299z"/>
+      <path d="M501.613,59.013H49.181c-15.784,0-27.919,5.33-36.42,15.979C4.253,85.646,0.006,98.97,0.006,114.949
+       c0,12.907,5.636,26.892,16.903,41.959c11.267,15.061,23.256,26.891,35.961,35.496c6.965,4.921,27.969,19.523,63.012,43.801
+       c18.917,13.109,35.368,24.535,49.505,34.395c12.05,8.396,22.442,15.667,31.022,21.701c0.985,0.691,2.534,1.799,4.59,3.269
+       c2.215,1.591,5.018,3.61,8.476,6.107c6.659,4.816,12.191,8.709,16.597,11.683c4.4,2.975,9.731,6.298,15.985,9.988
+       c6.249,3.685,12.143,6.456,17.675,8.299c5.533,1.842,10.655,2.766,15.367,2.766h0.306h0.306c4.711,0,9.834-0.924,15.368-2.766
+       c5.531-1.843,11.42-4.608,17.674-8.299c6.248-3.69,11.572-7.02,15.986-9.988c4.406-2.974,9.938-6.866,16.598-11.683
+       c3.451-2.497,6.254-4.517,8.469-6.102c2.057-1.476,3.605-2.577,4.596-3.274c6.684-4.651,17.1-11.892,31.104-21.616
+       c25.482-17.705,63.01-43.764,112.742-78.281c14.957-10.447,27.453-23.054,37.496-37.803c10.025-14.749,15.051-30.22,15.051-46.408
+       c0-13.525-4.873-25.098-14.598-34.737C526.461,63.829,514.932,59.013,501.613,59.013z"/>
+       <span id="space">jaqueline.16.17.ml@gmail.com</span>
+    </div>
+   </div>
+   <div class="col-md-7">
+    <h4 id="idiomas">IDIOMAS</h4>
+    <div class="idiomas">
+      <ul>
+         <li>Español (Lengua materna)</li>
+         <li>Inglés 2A</li>
+       </ul>
+    
+    </div>
+   </div>
+  </div>
+ </div>
+
+  
+
+
+<!--aqui puede ir el java script -->
+</body>
+
+</html>

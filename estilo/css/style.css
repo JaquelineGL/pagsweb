@@ -1,0 +1,217 @@
+.navbar {
+	background-color: #AF1E07;
+	font-family: ; 
+}
+
+.container{
+	font-family: Times;
+}
+
+hr{
+	align-content: center;
+	width: 90%;
+}
+
+h2{
+	color: #AF1E07; 
+	font-family: 'Cormorant Garamond', serif;
+}
+
+p{
+	font-family: Arial; 
+}
+
+.referencias{
+	font-family: Arial;
+	font-size: 12px;
+
+}
+
+.btn-outline-primary{
+	color: #AF1E07; 
+	border-color: #AF1E07; 
+	width: 40px;
+	height: 40px;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #AF1E07;
+  border-color: #AF1E07;
+}
+
+label{
+	font-family: Arial; 
+}
+
+.btn-outline-primary-borrar{
+	color: #AF1E07; 
+	border-color: #AF1E07; 
+	width: 200px;
+	height: 40px;
+}
+.btn-outline-primary-borrar:hover {
+  color: #fff;
+  background-color: #AF1E07;
+  border-color: #AF1E07;
+}
+.btn-outline-primary-borrar:focus {
+  box-shadow: 0 0 0 0.25rem rgba(175, 30, 7, 0.5);
+  background-color:  #AF1E07;
+  color: #ffffff;
+}
+
+
+
+
+/*ESTILOS DE LA LINEA DEL TIEMPO*/
+.btn-outline-primary2{
+	color: #B9770E; 
+	border-color: #B9770E; 
+	width: 40px;
+	height: 40px;
+}
+.btn-outline-primary2:hover {
+  color: #fff;
+  background-color: #B9770E;
+  border-color: #B9770E;
+}
+.btn-outline-primary2:focus {
+  box-shadow: 0 0 0 0.25rem rgba(185, 119, 14, 0.5);
+  background-color:  #B9770E;
+  color: #ffffff;
+}
+
+.titulo-linea{
+	color: #AF1E07; 
+	font-family: 'Arial';
+	font-size: 20px;
+}
+
+.parrafo-linea{
+	font-family: Arial; 
+    text-align: justify; 
+}
+
+/**ESTILOS CURRICULUM VITAE*/
+
+#header{
+ display: grid;
+ grid-template-columns: 2fr 5fr;
+ background: #ffffff;
+ color: white;
+
+}
+#ui{
+ display: grid;
+ grid-template-columns: 0.2fr 0.5fr;
+}
+.skills{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+#ent{
+ margin-top: 0px;
+}
+#space{
+ margin-left: 30px;
+
+}
+#progress-bar{
+ background: #CDCDCF;
+ height: 10px;
+ margin-top: 5px;
+ width: 100px;
+}
+#progress{
+ background: black;
+ height: 10px;
+ width: 80px;
+}
+.topM{
+ margin-top: 20px;
+ margin-bottom: 10px;
+
+}
+#contacts{
+ background: #CDCDCF;
+ padding: 10px;
+}
+
+#exp1{
+ margin-right: 20px;
+ display: grid;
+ grid-template-columns: 1fr 2fr 4fr;
+}
+p{
+ text-align: justify;
+}
+#head{
+ font-weight: bold;
+}
+svg{
+ height: 1em;
+ margin-left: 40px;
+}
+#left-mrgm{
+ margin-left: 40px;
+ font-weight: bold;
+}
+.box{
+ height: 20px;
+ width: 20px;
+ background: black;
+}
+#image{
+ height: 50px;
+ width: 50px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ margin-left: 20px;
+}
+#name{
+ letter-spacing: 0.2em;
+ font-weight: bold;
+ margin-top: 20px;
+
+}
+#web{
+ letter-spacing: 0.2em;
+ margin-top: 30px;
+}
+#underline{
+ width: 350px;
+ height: 7px;
+ margin-top: 20px;
+ background: #CECED0;
+}
+#exp{
+ background: #CDCDCF;
+ padding: 10px;
+}
+#wrapper{
+ padding: 0px;
+ margin-top: 50px;
+ margin-left: 17%;
+}
+
+
+#idiomas{
+ background: #CDCDCF;
+ padding: 10px;
+}
+
+#p1{
+ text-align: center;
+}
+
+#name{
+	color:#000000;
+}
+
+/*magenc{
+ height: 150px;
+ width: 150px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ margin-left: 20px;
+}*/
