@@ -109,20 +109,17 @@ function cambiarfondo(){
 }
 
 function cambiarletras(){
-	document.getElementById('wrapper').style.color= '#9B3D00';
+	document.getElementById('wrapper').style.color= '#7E3100';
+	document.getElementById('space').style.color= '#7E3100';
 	document.getElementById('exp').style.color= '#ffffff';
 	document.getElementById('educ').style.color= '#ffffff';
 	document.getElementById('contacts').style.color= '#ffffff';
 	document.getElementById('idiomas').style.color= '#ffffff';
-	document.getElementById('name').style.color= '#AF1E07';
-
-
-	
-	
+	document.getElementById('name').style.color= '#AF1E07';	
 }
 
 function fotoformal(){
-	document.getElementById('imagenc').innerHTML = '<img src="imagenes/xd.png">';
+	document.getElementById('imagenc').innerHTML = '<img src="imagenes/fotof.jpeg">';
 }
 
 function fotocasual(){
@@ -130,13 +127,13 @@ function fotocasual(){
 }
 
 function primertrabajo(){
-	document.getElementById('tienda0').innerHTML= "Novedades Ale";
+	document.getElementById('tienda0').innerHTML= "Dependiente en tienda de ropa: Novedades Ale";
 	document.getElementById('tienda1').innerHTML= "-Atención al cliente";
 	document.getElementById('tienda2').innerHTML= "-Corte de caja";
 }
 
 function segundotrabajo(){
-	document.getElementById('pw0').innerHTML= "Phanda";
+	document.getElementById('pw0').innerHTML= "Programadora web en: Phanda";
 	document.getElementById('pw1').innerHTML= "-Programación en HTML";
 	document.getElementById('pw2').innerHTML= "-Programación en PHP";
 	document.getElementById('pw3').innerHTML= "-Programación en CSS";
@@ -144,12 +141,12 @@ function segundotrabajo(){
 }
 
 function estudio1(){
-	document.getElementById('es0').innerHTML= "CECYTEA Plantel Pabellón de Arteaga ";
+	document.getElementById('es0').innerHTML= "Estudiante Técnico en programación en: CECYTEA Plantel Pabellón de Arteaga ";
 	document.getElementById('es1').innerHTML= "-Programacion básica en Java y HTML";
 }
 
 function estudio2(){
-	document.getElementById('est0').innerHTML= "Intituto Tecnológico de Pabellón de Artega";
+	document.getElementById('est0').innerHTML= "Estudiante de Ingeniería en TICS en: Instituto Tecnológico de Pabellón de Artega";
 	document.getElementById('est1').innerHTML= "-Programación en HTML";
 	document.getElementById('est2').innerHTML= "-Programación en PHP";
 	document.getElementById('est3').innerHTML= "-Programación en CSS";

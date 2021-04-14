@@ -1,3 +1,4 @@
+/*ESTILOS GENERALES*/
 .navbar {
 	background-color: #AF1E07;
 	font-family: ; 
@@ -26,6 +27,30 @@ p{
 	font-size: 12px;
 
 }
+
+.accordion-button{
+	color: #772F00; 
+	font-family: "Arial";
+	font-size: 15px;
+}
+
+.accordion-button:not(.collapsed) {
+  color:  #772F00;
+  background-color: #FFF8D2;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  color: #772F00; 
+  border-color: #FFF8D2;
+  background-color:#FFF8D2; 
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(255, 248, 210, 0.25);
+}
+
+
+
+/*ESTILOS DE LA CALCULADORA*/
 
 .btn-outline-primary{
 	color: #AF1E07; 
@@ -59,8 +84,6 @@ label{
   background-color:  #AF1E07;
   color: #ffffff;
 }
-
-
 
 
 /*ESTILOS DE LA LINEA DEL TIEMPO*/
@@ -161,6 +184,7 @@ svg{
  width: 20px;
  background: black;
 }
+
 #image{
  height: 50px;
  width: 50px;

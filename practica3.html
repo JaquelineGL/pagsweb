@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<title>Undad 3| Práctica 3 | Currículum Vitae con Javascript</title>
+<title>Unidad 3| Práctica 3 | Currículum Vitae con Javascript</title>
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
@@ -43,19 +43,31 @@
     </div>
   </div>
 </nav>
-<br><br><br>
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Descripción de la práctica
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">La presente práctica muestra un currículum vitae el cual, mediante Javascript, brinda las opciones de cambiar los colores de fondo, cambiar color de letra, poder ver una foto formal y una casual y por supuesto apreciar la experencia laboral y la educación, todo mediante un 'click' en el botón correspondiente.</div>
+    </div>
+  </div>
+  
+  </div>
+<br><br>
+<h2 align="center"><b>CURRÍCULUM VITAE</b></h2>
+<center><hr style="color: #E38265"></center><br><br>
 <div class="container">
   <div class="row">
-    <div class="col-sm-8 offset-sm-2 col-md-8 offset-md-2 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2 col-xxl-8 offset-xxl-2">
+    <div class="col-sm-8 offset-sm-3 col-md-8 offset-md-3 col-lg-8 offset-lg-3 col-xl-8 offset-xl-3 col-xxl-8 offset-xxl-3">
       <label>Opciones:</label>
-      <button type="button" name="button" class="btn btn-outline-primary-borrar" onclick="cambiarfondo()">Cambiar colores de fondo</button> 
-      <button type="button" name="button" class="btn btn-outline-primary-borrar" onclick="cambiarletras() ">Cambiar colores de letra</button>   
+      <button type="button" name="button" id="bcolores" class="btn btn-outline-primary-borrar" onclick="cambiarfondo()">Cambiar colores de fondo</button> 
+      <button type="button" name="button" id="bletras" class="btn btn-outline-primary-borrar" onclick="cambiarletras() ">Cambiar colores de letra</button>   
     </div>
   </div>
 </div>
-<center><hr style="color: #E38265"></center><br><br>
-
-
 <div class="col-md-offset-2 col-md-8" style="background: #E4E5E9" id="wrapper" >
   <div id="header">
    <div class="contenedor-imagen">
@@ -81,7 +93,7 @@
        c4.948,0,9.229-1.813,12.847-5.428c3.614-3.613,5.421-7.898,5.421-12.847V18.271C438.534,13.319,436.73,9.04,433.113,5.424z"/>
       </div>
       <div>
-       <span id="head">Dependiente en una tienda de ropa </span>
+       <span id="head"> </span>
        <p><button class="btn btn-outline-primary-borrar" type="button" onclick="primertrabajo()">2019-2020</button></p>
       </div>
       <div>
@@ -101,7 +113,7 @@
        c4.948,0,9.229-1.813,12.847-5.428c3.614-3.613,5.421-7.898,5.421-12.847V18.271C438.534,13.319,436.73,9.04,433.113,5.424z"/>
       </div>
       <div>
-       <span id="head">Programadora web</span>
+       <span id="head"></span>
        <p><button class="btn btn-outline-primary-borrar" type="button" onclick="segundotrabajo()">Junio 2020-Agosto 2020</button></p>
       </div>
       <div>
@@ -133,7 +145,7 @@
        c4.948,0,9.229-1.813,12.847-5.428c3.614-3.613,5.421-7.898,5.421-12.847V18.271C438.534,13.319,436.73,9.04,433.113,5.424z"/>
       </div>
       <div>
-       <span id="head">Estudiante Técnico en programación</span>
+       <span id="head"></span>
        <p><button class="btn btn-outline-primary-borrar" type="button" onclick="estudio1()">2015-2018</button></p>
       </div>
       <div>
@@ -150,7 +162,7 @@
        c4.948,0,9.229-1.813,12.847-5.428c3.614-3.613,5.421-7.898,5.421-12.847V18.271C438.534,13.319,436.73,9.04,433.113,5.424z"/>
       </div>
       <div>
-       <span id="head">Estudiante de Ingeniería en TICS</span>
+       <span id="head"></span>
        <p><button class="btn btn-outline-primary-borrar" type="button" onclick="estudio2()">2018- </button></p>
       </div>
       <div>
@@ -211,17 +223,13 @@
     <h4 id="idiomas">IDIOMAS</h4>
     <div class="idiomas">
       <ul>
-         <li>Español (Lengua materna)</li>
-         <li>Inglés 2A</li>
+         <li><span id="space">Español (Lengua materna)</span></li>
+         <li><span id="space">Inglés 2A</span></li>
        </ul>
-    
     </div>
    </div>
   </div>
  </div>
-
-  
-
 
 <!--aqui puede ir el java script -->
 </body>
